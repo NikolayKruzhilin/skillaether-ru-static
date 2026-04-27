@@ -606,6 +606,7 @@ code, pre { font-family: var(--font-mono); }
   background: var(--gradient-accent);
   color: white;
   box-shadow: 0 2px 8px rgba(108, 92, 231, 0.25);
+  margin-left: auto; 
 }
 
 .card-action-download:hover {
