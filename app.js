@@ -357,7 +357,7 @@ function renderGrid() {
 }
 
 function updateSortButton() {
-  els.sortIcon.textContent = state.sortBy === "popular" ? "HOT" : "A-Z";
+  els.sortIcon.textContent = state.sortBy === "popular" ? "🔥" : "🔤";
   els.sortLabel.textContent = state.sortBy === "popular" ? strings.sortPopular : strings.sortAZ;
 }
 
